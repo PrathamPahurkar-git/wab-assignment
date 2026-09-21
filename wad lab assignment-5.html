@@ -1,0 +1,49 @@
+<html>
+<head>
+<title> Question Paper </title>
+</head>
+<body>
+<h1> Create A Multiple Choice Quesrion </h1>
+<form>
+<fieldset>
+<legend> Question Details </legend>
+<label> Enter the Question: </label><br>
+<textarea placeholder="Type your question here"> </textarea>
+<br><br>
+<label> Mark for this question: </label>
+<input type="number">
+</fieldset>
+<fieldset> 
+<legend> Options </legend>
+<label> Option A: </label>
+<input> </input><br><br>
+<label> Option B: </label>
+<input> </input><br><br>
+<label> Option C: </label>
+<input> </input><br><br>
+<label> Option D: </label>
+<input> </input><br><br>
+</fieldset>
+<fieldset>
+<legend> Correct Answer </legend>
+<input type="radio" name="option" value="A">
+<label> Option A </label> <br>
+<input type="radio" name="option" value="B">
+<label> Option B </label> <br> 
+<input type="radio" name="option" value="C">
+<label> Option C </label> <br>
+<input type="radio" name="option" value="D">
+<label> Option D </label> <br>
+</fieldset>
+<fieldset>
+<legend> Difficulty Level </legend>
+<label> Choose Difficulty: </label>
+<select>
+<option> Easy </option>
+<option> Medium  </option>
+<option> Hard </option>
+</select>
+</fieldset>
+<button type="submit">Save Question</button>
+<button type="reset">Clear Form</button>
+</form>
